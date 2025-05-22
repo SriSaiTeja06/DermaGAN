@@ -1,7 +1,7 @@
 
 # DermaGAN
 
-DermaGAN is a deep learning project that uses Generative Adversarial Networks (GANs) to generate synthetic dermatology images and enhance the performance of skin lesion classification models. Designed to tackle the challenge of limited and imbalanced dermatological datasets, DermaGAN contributes a novel dual-model pipeline combining GAN-based data augmentation with a custom CNN classifier.
+DermaGAN is a deep learning project that uses Generative Adversarial Networks (GANs) to generate synthetic dermatology images and enhance the performance of skin lesion classification models. Designed to tackle the challenge of limited and imbalanced dermatological datasets, DermaGAN contributes a novel dual-model pipeline combining GAN-based data augmentation with a custom CNN classifier. The model is trained and classifies images into four different classes: Melanoma, Basal Cell Carcinoma, Actinic Keratosis, and Benign Keratosis.
 
 ---
 
@@ -61,7 +61,7 @@ Raw Dataset → GAN → Synthetic Images → Augmented Dataset → CNN → Class
 
 1. **Clone the repository**  
    ```
-   git clone https://github.com/your-username/DermaGAN.git
+   git clone https://github.com/SriSaiTeja06/DermaGAN
    cd DermaGAN
    ```
 
